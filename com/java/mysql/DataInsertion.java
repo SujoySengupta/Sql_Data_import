@@ -5,8 +5,8 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 //import java.util.*;
 
-import com.mysql.cj.Query;
-import com.mysql.cj.protocol.Resultset;
+//import com.mysql.cj.Query;
+//import com.mysql.cj.protocol.Resultset;
 
 public class DataInsertion {
 	public static void main(String[] args) {
