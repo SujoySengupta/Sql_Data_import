@@ -11,6 +11,8 @@ import java.sql.Statement;
 public class DataInsertion {
 	public static void main(String[] args) {
 		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			System.out.println("Driver found");
 		Connection connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/javaprac", "root", "sujoy");
 		System.out.println("connection successful");
 		Statement state = connect.createStatement();
